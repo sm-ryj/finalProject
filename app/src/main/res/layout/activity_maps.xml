@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraints"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapsActivity"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="헤윰[생각]을 읽는 공간,독립서점 "
+        android:textSize="25dp" />
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" -->
+        />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200pt"
+        android:layout_marginTop="12dp" />
+<!--        app:layout_constraintHorizontal_bias="0.477"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/textView" -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#83978C8C"
+            android:text="북스캔"
+            android:textColor="@color/white"
+            android:textSize="40px" />
+
+        <Button
+            android:id="@+id/event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#83978C8C"
+            android:text="행사"
+            android:textColor="@color/white"
+            android:textSize="40px" />
+    </LinearLayout>
+
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/map"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/event"-->
+
+
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/map"-->
+<!--        app:layout_constraintRight_toLeftOf="@id/scan"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:text="더북소사이어티" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:text="이라선" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:text="서촌 그 책방" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:text="Off To Alone" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:text="작은 토끼야 들어와 편히 쉬어라" />
+    </LinearLayout>
+
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/scan"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/button2"-->
+
+
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/scan"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/button3"-->
+
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/scan"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/button4"-->
+
+
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/scan"-->
+<!--        app:layout_constraintLeft_toRightOf="@+id/button5"-->
+
+
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/scan"-->
+<!--        app:layout_constraintRight_toLeftOf="@id/button4"/>-->
+
+
+</LinearLayout>
